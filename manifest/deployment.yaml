@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: <ECR_REPO>:<IMAGE_TAG>
+          image: 519852036875.dkr.ecr.us-east-2.amazonaws.com/sims_ecr_gitlab:latest
           ports:
             - containerPort: 5000
           env:
